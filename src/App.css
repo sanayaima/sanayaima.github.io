@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Meetei+Mayek&display=swap');
+
 
 body {
   margin: 0;
@@ -56,11 +59,17 @@ h4 {
   */
 
 /* css for contact*/
+.contact-address{
+  /*all: initial;*/
+  font-family: Inter;
+  font-style: normal;
+}
 
 .contact-table {
   margin:0;
   padding:0;
   border: 0;
+  border-spacing: 0;
   text-decoration: none;
   font-family: 'Helvetica', sans-serif;
   border-collapse: separate;
@@ -68,6 +77,49 @@ h4 {
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
-  max-width: 369px;
-  width:'369';
+}
+
+.contact-table p{
+  margin: 0;
+}
+
+.name{
+  font-family: Inter, sans-serif;
+  color: #0085d1;
+  
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.meitei-mayek-name {
+  font-family: 'Noto Sans Meetei Mayek', sans-serif;
+  letter-spacing: 2px;
+  color: #00a8e2;
+  
+}
+
+.designation {
+  letter-spacing: 2px;
+  color: #777777;
+}
+
+.department {
+  padding-top: 20px;
+  letter-spacing: -1px;
+  color: #777777;
+}
+
+.university {
+  letter-spacing: 2px;
+  color: #00a8e2;
+}
+
+.university a {
+  color: #00a8e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+.address-line {
+  font-size: 12pt;
+  color: #777777;
 }
