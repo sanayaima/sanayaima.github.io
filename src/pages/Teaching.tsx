@@ -7,7 +7,8 @@ const Teaching = () => {
             "Internet Technologies Lab, MCA, monsoon semester, 2022."
         ],
         2023: [
-            "Deep Learning, (IMTech, MTech, PhD), monsoon semester, 2023."
+            "Deep Learning, (IMTech, MTech, PhD), monsoon semester, 2023.",
+            "Operating Systems, (IMTech), winter semester, 2023."
         ]
     }
 
